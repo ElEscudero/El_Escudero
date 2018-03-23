@@ -1,0 +1,85 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.steven.fragments.fragmentsPrincipal.fragmentscat.Registrarse">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/txtednombre_re"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:ems="10"
+                    android:hint="Nombre :"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtedapellido_re"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:ems="10"
+                    android:hint="Apellidos :"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txteddireccion_re"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:ems="10"
+                    android:hint="Direccion :"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtedemail_re"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:ems="10"
+                    android:hint="Email :"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtedpasword_re"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:ems="10"
+                    android:hint="Pasword :"
+                    android:inputType="textPassword" />
+
+                <EditText
+                    android:id="@+id/txtednumber_re"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:ems="10"
+                    android:hint="Telefono :"
+                    android:inputType="phone" />
+
+                <Button
+                    android:id="@+id/btnregistrar_re"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary"
+                    android:text="Registrarse"
+                    android:textColor="@color/carrito"
+                    tools:layout_editor_absoluteY="420dp" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </android.support.constraint.ConstraintLayout>
+
+</FrameLayout>

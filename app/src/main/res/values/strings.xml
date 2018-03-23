@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">El Escudero</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_user">Usuario</string>
+    <string name="title_info">Info</string>
+
+    <string name="title_button_product_list">Añadir al carrito</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="close">Cerrar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Info Message -->
+    <string name="saved_successfully">Record saved correctly</string>
+    <string name="product_name_hint">Product name</string>
+    <string name="price_hint">Price</string>
+
+    <!-- Errors Message -->
+    <string name="saved_error">Cannot insert the record</string>
+    <string name="field_empty">Fields cannot be empty</string>
+</resources>
